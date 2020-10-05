@@ -12,8 +12,8 @@ namespace ExpendedoraProyectoG3
      private float precio;
 
 
-     private byte temperatura;
-        public byte Temperatura { 
+    internal byte temperatura;
+        public virtual byte Temperatura { 
             get => temperatura;
             set
             {
@@ -28,40 +28,40 @@ namespace ExpendedoraProyectoG3
             }
         }
 
-        public string Marca { get => marca; set => marca = value; }
-        public ushort CantProductos { get => cantProductos; set => cantProductos = value; }
-        public float Precio { get => precio; set => precio = value; }
+        public virtual string Marca { get => marca; set => marca = value; }
+        public virtual ushort CantProductos { get => cantProductos; set => cantProductos = value; }
+        public virtual float Precio { get => precio; set => precio = value; }
         #endregion
 
         #region Constructor
         public Expendedora() //Lo que hara nuestra clase
-            {
+        {
            
 
         }
         #endregion
 
         #region Metodos
-        public void Saludar() //Es como una funcion
+        public virtual void Saludar() //Es como una funcion
         {
             Console.WriteLine("Bienvenido");
         }
 
-        public void ElevarTemperatura()
+        public virtual void ElevarTemperatura()
         {
             Temperatura++;
         }
-        public void MostrarTemperatura()
+        public virtual void MostrarTemperatura()
         {
             Console.WriteLine("Temperatura: {0} ", Temperatura);
         }
-        public void tiempoDespliegue() //Limpiara la pantalla
+        public virtual void tiempoDespliegue() //Limpiara la pantalla
         {
             Thread.Sleep(3000); //Espera 3 segundo a que haga el otro proceso
             Console.Clear();
         }
 
-        public string MostrarCodigoProducto() //es string porque va a pedir variables 
+        public virtual string MostrarCodigoProducto() //es string porque va a pedir variables 
         {
             Console.WriteLine("1A: Takis \n2B: Chips");
             Console.WriteLine("Ingrede el codigo del producto a elegir: ");
@@ -70,7 +70,7 @@ namespace ExpendedoraProyectoG3
 
         }
 
-        public void MostrarPrecio(string codigo) //Para que entre la variable codigo 
+        public virtual void MostrarPrecio(string codigo) //Para que entre la variable codigo 
         {
             switch(codigo)
             {

@@ -21,6 +21,18 @@ namespace ExpendedoraProyectoG3
 
             //Expendedora miSegundaExpendedora = new Expendedora();
             Cafe miCafe = new Cafe();
+            Console.WriteLine("¿Desea entrar en modo mantenimiento (s/n) ");
+            char selecccionM = char.Parse(Console.ReadLine());
+            bool mantenimiento = false;
+            if( selecccionM == 's'    )
+            {
+                mantenimiento = true;
+            }
+            else
+            {
+                mantenimiento = false;
+            }
+            Cafe cafeMantenimiento = new Cafe(mantenimiento);
 
 
         }

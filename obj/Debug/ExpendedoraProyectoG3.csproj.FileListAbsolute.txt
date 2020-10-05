@@ -1,0 +1,14 @@
+C:\Users\axel\source\repos\ExpendedoraProyectoG3\bin\Debug\ExpendedoraProyectoG3.exe.config
+C:\Users\axel\source\repos\ExpendedoraProyectoG3\bin\Debug\ExpendedoraProyectoG3.exe
+C:\Users\axel\source\repos\ExpendedoraProyectoG3\bin\Debug\ExpendedoraProyectoG3.pdb
+C:\Users\axel\source\repos\ExpendedoraProyectoG3\obj\Debug\ExpendedoraProyectoG3.csprojAssemblyReference.cache
+C:\Users\axel\source\repos\ExpendedoraProyectoG3\obj\Debug\ExpendedoraProyectoG3.csproj.CoreCompileInputs.cache
+C:\Users\axel\source\repos\ExpendedoraProyectoG3\obj\Debug\ExpendedoraProyectoG3.exe
+C:\Users\axel\source\repos\ExpendedoraProyectoG3\obj\Debug\ExpendedoraProyectoG3.pdb
+C:\Users\jrodr\source\repos\ExpendedoraProyectoG3\ExpendedoraProyectoG3\bin\Debug\ExpendedoraProyectoG3.exe.config
+C:\Users\jrodr\source\repos\ExpendedoraProyectoG3\ExpendedoraProyectoG3\bin\Debug\ExpendedoraProyectoG3.exe
+C:\Users\jrodr\source\repos\ExpendedoraProyectoG3\ExpendedoraProyectoG3\bin\Debug\ExpendedoraProyectoG3.pdb
+C:\Users\jrodr\source\repos\ExpendedoraProyectoG3\ExpendedoraProyectoG3\obj\Debug\ExpendedoraProyectoG3.csprojAssemblyReference.cache
+C:\Users\jrodr\source\repos\ExpendedoraProyectoG3\ExpendedoraProyectoG3\obj\Debug\ExpendedoraProyectoG3.csproj.CoreCompileInputs.cache
+C:\Users\jrodr\source\repos\ExpendedoraProyectoG3\ExpendedoraProyectoG3\obj\Debug\ExpendedoraProyectoG3.exe
+C:\Users\jrodr\source\repos\ExpendedoraProyectoG3\ExpendedoraProyectoG3\obj\Debug\ExpendedoraProyectoG3.pdb
